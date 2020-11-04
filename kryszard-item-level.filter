@@ -80,7 +80,6 @@ ItemDisplay[r30 OR r31]: %GREEN%[%RUNENUM%] %PURPLE%»»»» »»  »»    »   
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]: %NAME%
-ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
 ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
@@ -95,13 +94,6 @@ ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
 ItemDisplay[gpb]: %ORANGE%P %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skz]: %ORANGE%P %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
-
-// Show possible expensive, fewer-socketed white/magic items with vendor price
-ItemDisplay[(WP11 OR WP12 OR WP13) (NMAG OR MAG) !RW SOCK<2]: %GRAY%%NAME% %TAN%[$%PRICE%] // staves, wands and scepters
-ItemDisplay[CL1 (NMAG OR MAG) !RW SOCK<2]: %GRAY%%NAME% %TAN%[$%PRICE%] // Druid pelts
-ItemDisplay[CL2 (NMAG OR MAG) !RW SOCK<2]: %GRAY%%NAME% %TAN%[$%PRICE%] // Barbarian helmets
-ItemDisplay[CL4 (NMAG OR MAG) !RW SOCK<2]: %GRAY%%NAME% %TAN%[$%PRICE%] // Necromancer shields
-ItemDisplay[CL6 (NMAG OR MAG) !RW SOCK<2]: %GRAY%%NAME% %TAN%[$%PRICE%] // Sorceress weapons
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
