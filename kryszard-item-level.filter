@@ -80,6 +80,7 @@ ItemDisplay[r30 OR r31]: %GREEN%[%RUNENUM%] %PURPLE%»»»» »»  »»    »   
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
 ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]: %NAME%
+ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: 
 ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
